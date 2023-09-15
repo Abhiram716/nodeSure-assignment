@@ -4,7 +4,7 @@ import ReactPaginate from "react-paginate";
 import apiClient from "../services/apiService";
 import "../styles/productStyles.css";
 
-function Products() {
+const ProductsPage = () => {
   const [products, setProducts] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
   const productsPerPage = 1;
@@ -71,6 +71,6 @@ function Products() {
       ))}
     </div>
   );
-}
+};
 
-export default Products;
+export default ProductsPage;

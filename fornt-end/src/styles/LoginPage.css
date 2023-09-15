@@ -45,14 +45,4 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #0056b3;
 }
-/* 
-.loading-spinner {
-  display: none;
-  font-size: 24px;
-  margin-left: 10px;
-}
 
-.login-button.pending {
-  background-color: #ccc;
-  cursor: not-allowed;
-} */
