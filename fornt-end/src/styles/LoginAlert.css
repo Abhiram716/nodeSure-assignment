@@ -1,0 +1,12 @@
+.login-alert {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-alert-disappear{
+  display: none;
+}
